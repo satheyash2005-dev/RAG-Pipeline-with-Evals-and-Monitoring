@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI PDF Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <i class="fa-solid fa-robot"></i>
+            <h2>PDF AI</h2>
+        </div>
+
+        <button class="new-chat">
+            <i class="fa-solid fa-plus"></i>
+            New Chat
+        </button>
+
+        <div class="history">
+
+            <h3>Recent Chats</h3>
+
+            <div class="history-item">
+                <i class="fa-solid fa-message"></i>
+                Chat 1
+            </div>
+
+            <div class="history-item">
+                <i class="fa-solid fa-message"></i>
+                Chat 2
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- Main -->
+
+    <main class="main">
+
+        <div class="topbar">
+
+            <h1>AI PDF Assistant</h1>
+
+            <div class="upload-box">
+
+                <input
+                    type="file"
+                    id="pdfFile"
+                    accept=".pdf"
+                    hidden>
+
+                <button id="uploadBtn">
+                    <i class="fa-solid fa-upload"></i>
+                    Upload PDF
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <div id="chatBox" class="chat-box">
+
+            <div class="bot-message">
+
+                👋 Hello! Upload a PDF and ask me anything about it.
+
+            </div>
+
+        </div>
+
+
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask something from your PDF...">
+
+            <button id="askBtn">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
