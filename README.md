@@ -138,14 +138,3 @@ Add screenshots of your application here.
 
 ---
 
-## 👨‍💻 Author
-
-**Yash Sathe**
-
-GitHub: https://github.com/satheyash2005-dev
-
-LinkedIn: *(Add your LinkedIn profile link)*
-
----
-
-## ⭐ If you found this project useful, consider giving it a star.
